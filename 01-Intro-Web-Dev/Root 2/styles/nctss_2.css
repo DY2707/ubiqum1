@@ -1,0 +1,106 @@
+
+
+.container{
+  margin: auto;
+  display:grid;
+  place-items: center;
+  width: 700px;
+  font-family: "Playwrite CU", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 24px;
+}
+
+.images {
+  height: min-content;
+  width:min-content;
+  margin: 0px 20px 0px 20px;
+  float: left;
+  position: relative;
+}
+
+.logo{
+  border-radius:20px;
+  height: 150px;
+  width: 150px;
+  margin-left: 10px;
+}
+
+.img{
+  margin-top: 20px;
+  border-radius:200px;
+  height: 250px;
+  width: 250px;
+}
+
+.content{
+  display:grid;
+  place-items: center;
+  width: 700px;
+  background-color: rgb(242, 242, 242);
+  border-radius: 20px;
+}
+
+.navigation{
+  text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+
+.home-nav,
+.about-nav,
+.info-nav,
+.rules-nav,
+.contact-nav{
+  color: rgb(0, 112, 192);
+  font-size:24px;
+  font-weight: bold;
+  background-color: transparent;
+  border: transparent;
+  padding: 0px 10px;
+  cursor:pointer;
+  text-decoration: underline ;
+}
+
+.about-nav,
+.rules-nav {
+  border-left: solid;
+  border-right: solid;
+  border-color:rgb(0, 112, 192) ;
+}
+
+.main-title{
+  font-weight: 400;
+  font-size: 50px;
+}
+
+.content{
+  margin: 20px;
+}
+
+.title{
+ text-align:center;
+ font-size: 22px;
+ 
+}
+
+.description{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align:center;
+}
+
+.date {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+.activity {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+};
+
+
+
+
